@@ -8,7 +8,7 @@ provider:
 
 functions:
   cifar10:
-    image: public.ecr.aws/j7y6i3l0/cifar10-serverless:latest
+    image: 441249477288.dkr.ecr.ap-south-1.amazonaws.com/cifar10-serverless:latest
     events:
       - http:
           path: inference

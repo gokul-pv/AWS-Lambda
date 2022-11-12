@@ -8,7 +8,7 @@ from PIL import Image
 
 from utils import decode_base64_to_image, load_label_mapping, map_class_to_label
 
-model = torch.jit.load("model_store/cifar10-model.scripted.pt", map_location=torch.device("cpu"))
+model = torch.jit.load("model_store/cifar10-model.scripted.pt")
 model.eval()
 predict_transforms = T.Compose(
     [
