@@ -10,7 +10,7 @@ AWS Lambda is a serverless, event-driven compute service that lets you run code 
 
 ![Scaling](./resources/2.png)
 
-![Lambda flow](./resources/1.png)
+![Lambda flow](./resources/3.png)
 
 ### How to run
 
