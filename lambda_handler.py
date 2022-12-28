@@ -48,6 +48,7 @@ def handle_request(event, context):
 
     try:
         image = decode_base64_to_image(img_b64)
+        image = image.convert("RGB")
 
         predictions = inference(image)
 
